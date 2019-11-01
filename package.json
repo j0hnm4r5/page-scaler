@@ -1,0 +1,14 @@
+{
+  "name": "page-scaler",
+  "version": "1.0.0",
+  "main": "index.jsx",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "devDependencies": {
+    "@j0hnm4r5/eslint-config": "^1.0.6",
+    "eslint": "^6.6.0"
+  }
+}
