@@ -1,6 +1,6 @@
 {
   "name": "page-scaler",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "browser": "build/index.js",
   "license": "MIT",
   "repository": "github.com:j0hnm4r5/page-scaler",
