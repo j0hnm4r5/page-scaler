@@ -1,9 +1,11 @@
 {
   "name": "page-scaler",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "browser": "build/index.js",
   "license": "MIT",
+  "author": "John Mars",
   "repository": "github.com:j0hnm4r5/page-scaler",
+  "homepage": "https://github.com/j0hnm4r5/page-scaler",
   "scripts": {
     "build": "rollup -c",
     "pub": "yarn run build && yarn publish",
