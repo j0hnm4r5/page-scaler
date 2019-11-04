@@ -108,8 +108,9 @@ var PageScaler = function PageScaler(_ref) {
       position: "absolute",
       top: 0,
       left: 0,
-      width: "100%",
-      height: "100%",
+      right: 0,
+      bottom: 0,
+      overflow: "hidden",
       background: noStripes ? color1 : "repeating-radial-gradient(circle at bottom right,".concat(color1, ",").concat(color1, " 5px,").concat(color2, " 5px,").concat(color2, " 10px)")
     }
   }, React__default.createElement("div", {

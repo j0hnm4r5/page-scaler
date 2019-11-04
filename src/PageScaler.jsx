@@ -41,11 +41,6 @@ const PageScaler = ({
 
 	// set the scale whenever the window resizes
 	useEffect(() => {
-		console.log(size.width, contentWidth, size.height, contentHeight);
-		console.log(
-			Math.min(size.width / contentWidth, size.height / contentHeight)
-		);
-
 		setScale(
 			Math.min(size.width / contentWidth, size.height / contentHeight)
 		);

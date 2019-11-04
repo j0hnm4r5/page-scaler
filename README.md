@@ -3,7 +3,7 @@
 A React component that uniformly scales all of its children to fit the visible window.
 
 
-![Example](./images/example.gif)
+![Example](https://github.com/j0hnm4r5/page-scaler/raw/master/images/example.gif)
 
 
 ## Usage

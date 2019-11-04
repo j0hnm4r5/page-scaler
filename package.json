@@ -3,6 +3,7 @@
   "version": "1.0.2",
   "browser": "build/index.js",
   "license": "MIT",
+  "repository": "github.com:j0hnm4r5/page-scaler",
   "scripts": {
     "build": "rollup -c",
     "pub": "yarn run build && yarn publish",
