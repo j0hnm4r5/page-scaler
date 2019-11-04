@@ -2,6 +2,10 @@
 
 A React component that uniformly scales all of its children to fit the visible window.
 
+
+![Example](./images/example.gif)
+
+
 ## Usage
 
 Import the component:
@@ -23,15 +27,26 @@ Use it:
 
 Make sure the container div for the contained content has a defined width and height!
 
+
 ## Parameters
 
-contentWidth: the width in pixels of the contained content
-contentHeight: the height in pixels of the contained content
-color1 [_optional_]: the primary color of the stripes (or the background color when `noStripes` is set). Defaults to `black`.
-color2 [_optional_]: the secondary color of the stripes. Defaults to `darkslategray`.
-noStripes [_optional_]: set to turn the stripes off.
+`contentWidth`: the width in pixels of the contained content. Must be a number.
+
+`contentHeight`: the height in pixels of the contained content. Must be a number.
+
+`color1` [_optional_]: the primary color of the stripes (or the background color when `noStripes` is set). Defaults to `black`.
+
+`color2` [_optional_]: the secondary color of the stripes. Defaults to `darkslategray`.
+
+`noStripes` [_optional_]: set to turn the stripes off.
+
+
+## Notes
+
+If you're seeing inconsistent results, your container div might not actually be the size you think it is — for example, padding will change the size of a div (unless you use `box-sizing: border-box;`).
+
 
 ## Potential Uses
 
-- Demoing content for kiosks or digital signage on other screens
+- Demoing content for exactly-sized kiosks or digital signage on other screens
 - Slideshows

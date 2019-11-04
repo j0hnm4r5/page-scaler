@@ -41,6 +41,11 @@ const PageScaler = ({
 
 	// set the scale whenever the window resizes
 	useEffect(() => {
+		console.log(size.width, contentWidth, size.height, contentHeight);
+		console.log(
+			Math.min(size.width / contentWidth, size.height / contentHeight)
+		);
+
 		setScale(
 			Math.min(size.width / contentWidth, size.height / contentHeight)
 		);
@@ -57,8 +62,9 @@ const PageScaler = ({
 				position: `absolute`,
 				top: 0,
 				left: 0,
-				width: `100%`,
-				height: `100%`,
+				right: 0,
+				bottom: 0,
+				overflow: `hidden`,
 				background: noStripes
 					? color1
 					: `repeating-radial-gradient(circle at bottom right,${color1},${color1} 5px,${color2} 5px,${color2} 10px)`,
