@@ -10,7 +10,7 @@ A React component that uniformly scales all of its children to fit the visible w
 
 Import the component:
 ```
-import PageScaler from "page-scaler`;
+import PageScaler from "page-scaler";
 ```
 
 Use it:
